@@ -2,6 +2,13 @@
 
 Get metadata of safe area from the native code.
 
+## Status
+
+- ios
+  - Fully supported
+- android
+  - Currently(22/03/18), it will just return top height of safe area with the value of `StatusBar.currentHeight`
+
 ## Installation
 
 ```sh
@@ -11,11 +18,12 @@ npm install react-native-get-safearea
 ## Usage
 
 ```js
-import { multiply } from "react-native-get-safearea";
+import { getSafeArea } from 'react-native-get-safearea';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await getSafeArea();
+console.log(result); // { left: 0, top: 48, right: 0, bottom: 34 }
 ```
 
 ## Contributing
