@@ -1,5 +1,7 @@
 # react-native-get-safearea
 
+[![npm version](https://badge.fury.io/js/react-native-get-safearea.svg)](https://badge.fury.io/js/react-native-get-safearea)
+
 Get metadata of safe area from the native code.
 
 ## Status
