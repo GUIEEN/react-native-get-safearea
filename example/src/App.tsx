@@ -1,16 +1,9 @@
 import * as React from 'react';
 import { Button, StyleSheet, View } from 'react-native';
-import { getSafeArea } from 'react-native-get-safearea';
+import MapView from 'react-native-get-safearea';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Button
-        title="Test getSafeArea"
-        onPress={() => getSafeArea().then((notch) => console.log(notch))}
-      />
-    </View>
-  );
+  return <MapView style={{ flex: 1 }} />;
 }
 
 const styles = StyleSheet.create({
@@ -20,3 +13,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+// <View style={styles.container}>
+//   <Button
+//     title="Test getSafeArea"
+//     onPress={() => getSafeArea().then((notch) => console.log(notch))}
+//   />
+// </View>

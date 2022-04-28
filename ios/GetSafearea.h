@@ -1,5 +1,10 @@
-#import <React/RCTBridgeModule.h>
+//#import <React/RCTBridgeModule.h>
+//
+//@interface GetSafearea : NSObject <RCTBridgeModule>
+//
+//@end
 
-@interface GetSafearea : NSObject <RCTBridgeModule>
+#import <React/RCTViewManager.h>
 
+@interface RNModuleTemplateModule : RCTViewManager
 @end
