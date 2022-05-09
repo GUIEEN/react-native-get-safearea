@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCC5D05E281A9C4A00CF9E86 /* GetSafearea.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* GetSafearea.m */; };
+		FCA94128282917AB008ECB4B /* GFTARViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA94127282917AB008ECB4B /* GFTARViewManager.m */; };
 		FCC5D05F281A9C5100CF9E86 /* GFTARView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB117C281A9A3B00C6F7AF /* GFTARView.m */; };
 /* End PBXBuildFile section */
 
@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libGetSafearea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGetSafearea.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* GetSafearea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSafearea.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* GetSafearea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSafearea.m; sourceTree = "<group>"; };
-		FCDB117B281A9A2600C6F7AF /* GFTARView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFTARView.h; sourceTree = "<group>"; };
-		FCDB117C281A9A3B00C6F7AF /* GFTARView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFTARView.m; sourceTree = "<group>"; };
+		FCA9412628291395008ECB4B /* libGetSafearea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGetSafearea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA94127282917AB008ECB4B /* GFTARViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFTARViewManager.m; sourceTree = "<group>"; };
+		FCA94129282917BC008ECB4B /* GFTARViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFTARViewManager.h; sourceTree = "<group>"; };
+		FCDB117B281A9A2600C6F7AF /* GFTARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTARView.h; sourceTree = "<group>"; };
+		FCDB117C281A9A3B00C6F7AF /* GFTARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTARView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,22 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		134814211AA4EA7D00B7C361 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				134814201AA4EA6300B7C361 /* libGetSafearea.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				FCA94129282917BC008ECB4B /* GFTARViewManager.h */,
+				FCA94127282917AB008ECB4B /* GFTARViewManager.m */,
 				FCDB117B281A9A2600C6F7AF /* GFTARView.h */,
 				FCDB117C281A9A3B00C6F7AF /* GFTARView.m */,
-				B3E7B5881CC2AC0600A0062D /* GetSafearea.h */,
-				B3E7B5891CC2AC0600A0062D /* GetSafearea.m */,
-				134814211AA4EA7D00B7C361 /* Products */,
+				FCA9412628291395008ECB4B /* libGetSafearea.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +70,7 @@
 			);
 			name = GetSafearea;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libGetSafearea.a */;
+			productReference = FCA9412628291395008ECB4B /* libGetSafearea.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -118,8 +110,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC5D05E281A9C4A00CF9E86 /* GetSafearea.m in Sources */,
 				FCC5D05F281A9C5100CF9E86 /* GFTARView.m in Sources */,
+				FCA94128282917AB008ECB4B /* GFTARViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
